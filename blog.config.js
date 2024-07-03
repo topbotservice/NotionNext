@@ -27,8 +27,7 @@ const BLOG = {
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'IntelliGo', // 您的昵称 例如 tangly1024
   BIO: process.env.NEXT_PUBLIC_BIO || '一个普通的干饭人🍚', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://tangly1024.com', // 网站地址
-  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'programming, coding, software development, tech discoveries, code sharing, new technologies, programming tutorials, coding tips, software projects, hobbyist programmer, code exploration, technology insights, developer blog, learning to code, programming resources, intelligent, AI, 编程, 代码, 软件开发, 技术发现, 代码分享, 新技术, 编程教程, 编程技巧, 软件项目, 业余程序员, 代码探索, 技术见解, 开发者博客, 学习编程, 编程资源, 智能, 人工智能
-', // 网站关键词 英文逗号隔开
+  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'programming,coding,software development,tech discoveries,code sharing,new technologies,programming tutorials,coding tips,software projects,code exploration,technology insights,developer blog,learning to code,programming resources,intelligent, AI, 编程,代码,软件开发,技术发现,代码分享,新技术,教程,技巧,软件项目,代码探索,技术见解,开发者博客,编程资源,人工智能', // 网站关键词 英文逗号隔开
 
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
   CONTACT_EMAIL: process.env.NEXT_PUBLIC_CONTACT_EMAIL || '', // 邮箱地址 例如mail@tangly1024.com
